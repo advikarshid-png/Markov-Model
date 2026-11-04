@@ -1,6 +1,6 @@
 # Markov regime report
 
-Updated 2026-11-04 16:05 UTC · 10 years of daily data · 20-day window · ±2% threshold
+Updated 2026-11-04 16:10 UTC · 10 years of daily data · 20-day window · ±2% threshold
 
 Each day is labelled **Bull**, **Bear** or **Sideways** from the trailing return. *Long-run mix* is the share of time the model expects in each regime. *Stays* is the chance a regime continues the next day. *Strategy* goes long in Bull-leaning states and short in Bear-leaning ones, re-fitted every day with no lookahead; *B&H* is simply holding the asset over the same days. Backtests are historical, not forward-looking, and exclude trading costs.
 
@@ -29,18 +29,17 @@ Each day is labelled **Bull**, **Bear** or **Sideways** from the trailing return
 | [SNDK](#sndk) | Bear | 25.9% | 7.0% | 67.1% | 90.5% | 95.6% | 1.92 | 1.35 | -43% | -56% | 2025-02-13 |
 | [NKE](#nke) | Bull | 36.4% | 21.6% | 42.0% | 86.6% | 87.3% | -0.06 | 0.09 | -69% | -79% | 2016-11-04 |
 | [MA](#ma) | Bull | 24.1% | 26.0% | 49.9% | 82.9% | 90.2% | -0.33 | 0.74 | -80% | -41% | 2016-11-04 |
-| [XLE](#xle) | Bull | 30.6% | 25.7% | 43.7% | 86.0% | 89.7% | 0.07 | 0.52 | -68% | -67% | 2016-11-04 |
+| [XLE](#xle) | Bull | 30.6% | 25.7% | 43.7% | 86.0% | 89.6% | 0.06 | 0.52 | -68% | -67% | 2016-11-04 |
 | [RSP](#rsp) | Bull | 19.8% | 36.4% | 43.8% | 88.4% | 87.9% | 0.35 | 0.66 | -37% | -39% | 2016-11-04 |
 | [VTV](#vtv) | Bull | 17.5% | 38.6% | 44.0% | 84.1% | 89.3% | 0.31 | 0.75 | -31% | -37% | 2016-11-04 |
-| [SCHD](#schd) | Bull | 18.8% | 37.5% | 43.7% | 84.6% | 88.9% | 0.21 | 0.78 | -35% | -33% | 2016-11-04 |
+| [SCHD](#schd) | Bull | 18.8% | 37.6% | 43.6% | 84.6% | 88.8% | 0.21 | 0.78 | -35% | -33% | 2016-11-04 |
 | [HYG](#hyg) | Sideways | 7.9% | 81.2% | 10.8% | 78.4% | 80.5% | -0.01 | 0.49 | -31% | -22% | 2016-11-04 |
 | [TLT](#tlt) | Bull | 28.3% | 44.2% | 27.5% | 85.3% | 84.7% | -0.13 | -0.06 | -42% | -48% | 2016-11-04 |
 | [VGIT](#vgit) | Sideways | 4.7% | 89.4% | 5.9% | 78.0% | 78.4% | 0.35 | 0.30 | -14% | -16% | 2016-11-04 |
-| [XLU](#xlu) | Bull | 24.6% | 33.2% | 42.2% | 84.3% | 88.1% | 0.03 | 0.51 | -57% | -36% | 2016-11-04 |
+| [XLU](#xlu) | Bull | 24.5% | 33.2% | 42.2% | 84.3% | 88.1% | 0.04 | 0.51 | -57% | -36% | 2016-11-04 |
 | [EQAL](#eqal) | Sideways | 21.3% | 35.8% | 42.8% | 88.4% | 87.7% | 0.44 | 0.58 | -27% | -40% | 2016-11-04 |
-| [BNO](#bno) | Bull | 32.3% | 18.1% | 49.6% | 86.9% | 90.6% | 0.51 | 0.59 | -70% | -75% | 2016-11-04 |
 | [KSA](#ksa) | Bear | 27.9% | 33.3% | 38.8% | 87.3% | 87.5% | 0.26 | 0.40 | -37% | -41% | 2016-11-04 |
-| [XOM](#xom) | Bull | 30.7% | 25.1% | 44.2% | 86.3% | 88.3% | 0.41 | 0.58 | -53% | -61% | 2016-11-04 |
+| [2222.SR](#2222.sr) | Sideways | 26.1% | 45.7% | 28.2% | 87.8% | 87.0% | 0.33 | 0.25 | -23% | -29% | 2019-12-11 |
 
 ## Charts
 
@@ -156,14 +155,10 @@ Each day is labelled **Bull**, **Bear** or **Sideways** from the trailing return
 
 ![EQAL](charts/EQAL.png)
 
-### BNO
-
-![BNO](charts/BNO.png)
-
 ### KSA
 
 ![KSA](charts/KSA.png)
 
-### XOM
+### 2222.SR
 
-![XOM](charts/XOM.png)
+![2222.SR](charts/2222.SR.png)
